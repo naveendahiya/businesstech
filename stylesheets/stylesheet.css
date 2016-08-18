@@ -741,20 +741,14 @@ dl dd {
   font-weight: 100;
 }
 
-footer {
-  padding-top: 20px;
-  padding-bottom: 30px;
-  margin-top: 40px;
-  font-size: 13px;
-  color: #aaa;
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
-}
-
-footer a {
-  color: #666;
-}
-footer a:hover {
-  color: #444;
+.footer {
+  position: absolute;
+     right: -51px;
+    bottom: -390px;
+    left: -52px;
+  padding: 1rem;
+  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  text-align: center;
 }
 
 /* MISC */
