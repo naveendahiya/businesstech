@@ -4,7 +4,6 @@ body, html {
 }
 
 body:after {
-    background: url(https://s3.eu-west-2.amazonaws.com/liambeeton.com/liam-beeton-com-2.jpg) center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -21,6 +20,10 @@ body:after {
     @media screen and (max-width: 768px) {
         background-attachment: scroll;
     }
+}
+
+body:after {
+    background: url(../images/github-button.png) center center;
 }
 
 h1 {
