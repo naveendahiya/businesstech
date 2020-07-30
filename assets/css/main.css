@@ -13209,7 +13209,8 @@ body, html {
   height: 100%; }
 
 body:after {
-  background: url(https://s3.eu-west-2.am.jpgazonaws.com/liambeeton.com/liam-beeton-com-2) center center;
+  background: url("../../images/background.jpeg");
+  background-color: #007bff;
   background-size: cover;
   background-attachment: fixed;
   content: "";
