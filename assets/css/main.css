@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed|Lato");
-/*!
- * Bootstrap Reboot v4.1.1 (https://getbootstrap.com/)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
- */
+
 *,
 *::before,
 *::after {
@@ -13215,7 +13209,7 @@ body, html {
   height: 100%; }
 
 body:after {
-  background: url(https://s3.eu-west-2.amazonaws.com/liambeeton.com/liam-beeton-com-2.jpg) center center;
+  background: url(https://s3.eu-west-2.am.jpgazonaws.com/liambeeton.com/liam-beeton-com-2) center center;
   background-size: cover;
   background-attachment: fixed;
   content: "";
