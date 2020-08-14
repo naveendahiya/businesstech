@@ -13,7 +13,7 @@
 .navbar-brand img
 {
 	height:80px;
-	width:450px;
+	width:500px;
 }
 .navbar-nav li
 {
@@ -31,7 +31,7 @@
 }
 .navbar
 {
-	background:#2e7bcf;
+	background:white;
 }
 .navbar-toggler
 {
@@ -53,7 +53,7 @@
 }
 .carousel-item img
 {
-	opacity:0.4;
+	opacity:1;
 }
 .carousel-caption 
 {
@@ -64,13 +64,13 @@
 	
 	font-size:50px;
 	font-family:Times New Roman;
-	color:#2e7bcf;
+	color:white;
 }
 .carousel-caption h6
 {
 	font-size:18px;
 	font-family:Times New Roman;
-	color:#2e7bcf;
+	color:white;
 	font-weight:bold;
 }
 .carousel-caption button
@@ -111,10 +111,9 @@
 }
 #hiring
 {
-	background-image:url('../images/background.jpg');
 	background-size:cover;
 	background-position:center;
-	color:#efefef;
+	color:#2e7bcf;
 	background-attachment:fixed;
 	padding-top:100px;
 	padding-bottom:50px;
@@ -122,13 +121,13 @@
 #hiring h1
 {
 	text-align:center;
-	color:#efefef;
+	color:#2e7bcf;
 	padding-bottom:10px;
 }
 #hiring h1:after
 {
 	content:'';
-	background:#efefef;
+	background:#2e7bcf;
 	display:block;
 	height:3px;
 	width:170px;
@@ -146,18 +145,19 @@
 	height:80px;
 	width:80px;
 }
-.hiring p
+.hiring p:before
 {
 	font-family:verdana;
 	font-size:14px;
 	margin-top:20px;
-	color:#ccc;
+	color:#2e7bcf;
 }
 .hiring .col-md-3:hover
 {
 	background-color:#2e7bcf;
+	color:white;
 	cursor:pointer;
-	transition:0.8s;
+	transition:1s;
 }
 #services
 {
